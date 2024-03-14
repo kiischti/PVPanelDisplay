@@ -2,7 +2,7 @@
 #include <Adafruit_Circuit_Playground.h>
 
 
-// Elecrrical resistance of the solar panel's load
+// Electrical resistance of the solar panel's load
 #define RESISTANCE 56
 
 // Number of values to use for calculating the moving average
@@ -26,7 +26,6 @@ void setup() {
 
   // Initialize Circuit Playground library.
   CircuitPlayground.begin();
-  //CircuitPlayground.strip.setBrightness(255);
 }
 
 void loop() {
